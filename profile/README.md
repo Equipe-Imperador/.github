@@ -1,12 +1,17 @@
-## Hi there 👋
+# Equipe Imperador de Baja SAE
 
-<!--
+<img src="https://static.wixstatic.com/media/1633a3_3f270a24f06d4ac4877364a9d72c038b~mv2.png/v1/fill/w_288,h_162,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo-branca.png">
 
-**Here are some ideas to get you started:**
+Bem vindo ao nosso repositório no GitHub. Aqui você pode encontrar os projetos desenvolvidos e utilizados pelo subsistema de eletrônica.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+# Projetos
+
+## Hardware
+
+### ECU
+
+## Firmware
+
+### ECU
+
+## Aplicativos
