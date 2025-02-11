@@ -24,4 +24,5 @@ O projeto de eletrônica para o J13 manteve a mesma filosofia que a do J12, busc
 - <a href="https://github.com/Equipe-Imperador/ecu_v3_hardware/tree/main">:computer: Hardware ECU</a>
 - <a href="https://github.com/Equipe-Imperador/Servidor">:space_invader: Servidor</a>
 - <a href="http://195.35.19.164:3001/">📈 Telemetria</a>
+
 A documentação completa e detalhada do projeto se encontra em: <a href="https://github.com/Equipe-Imperador/documentacao_eletronica_j13">Documentação Eletrônica do J13</a>
