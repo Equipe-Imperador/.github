@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1100" viewBox="0 0 1400 1100" role="img" aria-labelledby="title description">
+<title id="title">Arquitetura do J14</title>
+<desc id="description">O painel de telemetria se conecta à VPS por HTTPS. A VPS se comunica com a MECU por MQTT sobre TLS via 4G. MECU, FECU, RECU e Fusebox compartilham o barramento CAN do veículo.</desc>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#58a6ff"/></marker></defs>
+<rect width="1400" height="1100" fill="#0d1117"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#e6edf3">
+<text x="55" y="62" font-size="38" font-weight="700" fill="#e6edf3" text-anchor="start">Arquitetura do J14</text>
+<text x="55" y="100" font-size="22" font-weight="400" fill="#8b949e" text-anchor="start">Telemetria, servidor e eletrônica embarcada</text>
+<rect x="50" y="500" width="1300" height="550" rx="22" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text x="80" y="541" font-size="23" font-weight="700" fill="#8b949e" text-anchor="start">Veículo J14</text>
+<rect x="460" y="140" width="480" height="110" rx="15" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+<text x="700" y="185" font-size="28" font-weight="700" fill="#e6edf3" text-anchor="middle">Painel de telemetria</text>
+<text x="700" y="222" font-size="23" font-weight="400" fill="#e6edf3" text-anchor="middle">React + TypeScript</text>
+<rect x="460" y="340" width="480" height="110" rx="15" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+<text x="700" y="385" font-size="28" font-weight="700" fill="#e6edf3" text-anchor="middle">VPS</text>
+<text x="700" y="422" font-size="23" font-weight="400" fill="#e6edf3" text-anchor="middle">API · Mosquitto · PostgreSQL</text>
+<rect x="460" y="550" width="480" height="110" rx="15" fill="#231e16" stroke="#d29922" stroke-width="2"/>
+<text x="700" y="595" font-size="28" font-weight="700" fill="#e6edf3" text-anchor="middle">MECU</text>
+<text x="700" y="632" font-size="23" font-weight="400" fill="#e6edf3" text-anchor="middle">Integração dos dados do veículo</text>
+<g fill="none" stroke="#58a6ff" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"><path d="M700 255 V335"/><path d="M700 455 V545"/></g>
+<text x="735" y="302" font-size="23" font-weight="400" fill="#58a6ff" text-anchor="start">HTTPS</text>
+<text x="735" y="491" font-size="23" font-weight="400" fill="#58a6ff" text-anchor="start">MQTT sobre TLS via 4G</text>
+<text x="80" y="750" font-size="25" font-weight="700" fill="#e6edf3" text-anchor="start">Barramento CAN</text>
+<g fill="none" stroke="#58a6ff" stroke-width="4" stroke-linecap="round"><path d="M700 660 V790"/><path d="M230 790 H1170"/><path d="M230 790 V860"/><path d="M700 790 V860"/><path d="M1170 790 V860"/></g>
+<circle cx="230" cy="790" r="6" fill="#58a6ff"/>
+<rect x="70" y="860" width="320" height="110" rx="15" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+<text x="230" y="926" font-size="28" font-weight="700" fill="#e6edf3" text-anchor="middle">FECU</text>
+<circle cx="700" cy="790" r="6" fill="#58a6ff"/>
+<rect x="540" y="860" width="320" height="110" rx="15" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+<text x="700" y="926" font-size="28" font-weight="700" fill="#e6edf3" text-anchor="middle">RECU</text>
+<circle cx="1170" cy="790" r="6" fill="#58a6ff"/>
+<rect x="1010" y="860" width="320" height="110" rx="15" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+<text x="1170" y="926" font-size="28" font-weight="700" fill="#e6edf3" text-anchor="middle">Fusebox</text>
+<text x="80" y="1016" font-size="20" font-weight="400" fill="#8b949e" text-anchor="start">MECU, FECU, RECU e Fusebox compartilham a rede CAN do veículo.</text>
+<text x="55" y="1080" font-size="18" font-weight="400" fill="#8b949e" text-anchor="start">Diagrama das ligações de comunicação. O painel web é servido pela VPS e acessado pelo navegador.</text>
+</g></svg>

@@ -17,11 +17,15 @@ Na rede do veículo, **MECU, FECU, RECU e Fusebox** se comunicam pelo barramento
 
 ### Arquitetura do sistema
 
-![Arquitetura do J14: painel de telemetria conectado à VPS por HTTPS; VPS conectada à MECU por MQTT sobre TLS via 4G; MECU, FECU, RECU e Fusebox no mesmo barramento CAN.](https://raw.githubusercontent.com/Equipe-Imperador/.github/main/profile/assets/arquitetura-j14.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Equipe-Imperador/.github/main/profile/assets/arquitetura-j14-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Equipe-Imperador/.github/main/profile/assets/arquitetura-j14.svg">
+  <img alt="Arquitetura do J14: painel de telemetria conectado à VPS por HTTPS; VPS conectada à MECU por MQTT sobre TLS via 4G; MECU, FECU, RECU e Fusebox no mesmo barramento CAN." src="https://raw.githubusercontent.com/Equipe-Imperador/.github/main/profile/assets/arquitetura-j14-dark.svg" width="1400">
+</picture>
 
 O painel web é servido pela VPS e acessado pelo navegador. O diagrama apresenta as ligações de comunicação; a rede CAN é compartilhada pelas unidades do veículo.
 
-[Versão editável do diagrama em Mermaid](https://github.com/Equipe-Imperador/.github/blob/main/profile/assets/arquitetura-j14.mmd)
+Versões editáveis em Mermaid: [tema escuro](https://github.com/Equipe-Imperador/.github/blob/main/profile/assets/arquitetura-j14-dark.mmd) · [tema claro](https://github.com/Equipe-Imperador/.github/blob/main/profile/assets/arquitetura-j14.mmd).
 
 ## J13.2
 

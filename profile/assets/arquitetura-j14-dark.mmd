@@ -1,0 +1,24 @@
+flowchart TB
+    SITE["Painel de telemetria<br/>React + TypeScript"]
+    VPS["VPS<br/>API · Mosquitto · PostgreSQL"]
+    SITE <-->|HTTPS| VPS
+
+    subgraph CARRO["Veículo J14"]
+        MECU["MECU<br/>Integração dos dados do veículo"]
+        CAN["Barramento CAN"]
+        FECU["FECU"]
+        RECU["RECU"]
+        FUSEBOX["Fusebox"]
+        MECU --- CAN
+        CAN --- FECU
+        CAN --- RECU
+        CAN --- FUSEBOX
+    end
+
+    VPS <-->|MQTT sobre TLS via 4G| MECU
+    classDef remoto fill:#161b22,stroke:#58a6ff,color:#e6edf3,stroke-width:2px;
+    classDef central fill:#231e16,stroke:#d29922,color:#e6edf3,stroke-width:2px;
+    classDef unidade fill:#161b22,stroke:#58a6ff,color:#e6edf3,stroke-width:2px;
+    class SITE,VPS remoto;
+    class MECU central;
+    class CAN,FECU,RECU,FUSEBOX unidade;
